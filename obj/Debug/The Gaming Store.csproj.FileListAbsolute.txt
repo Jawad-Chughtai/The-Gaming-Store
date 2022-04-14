@@ -1,0 +1,6 @@
+c:\users\jaduu\documents\visual studio 2013\Projects\The Gaming Store\The Gaming Store\bin\The Gaming Store.dll.config
+c:\users\jaduu\documents\visual studio 2013\Projects\The Gaming Store\The Gaming Store\bin\The Gaming Store.dll
+c:\users\jaduu\documents\visual studio 2013\Projects\The Gaming Store\The Gaming Store\bin\The Gaming Store.pdb
+c:\users\jaduu\documents\visual studio 2013\Projects\The Gaming Store\The Gaming Store\obj\Debug\The Gaming Store.dll
+c:\users\jaduu\documents\visual studio 2013\Projects\The Gaming Store\The Gaming Store\obj\Debug\The Gaming Store.pdb
+C:\Users\Jaduu\documents\visual studio 2013\Projects\The Gaming Store\The Gaming Store\obj\Debug\The Gaming Store.csprojResolveAssemblyReference.cache

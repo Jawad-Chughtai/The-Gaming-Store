@@ -1,0 +1,31 @@
+﻿body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading{
+    border-bottom: 1px solid lightgray;
+    background-color: #3c3c60;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.heading h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+    color: white;
+    margin: 0;
+}
+
+.login-form{
+    width: 30%;
+    margin: auto;
+}
+
+.form-group-control a{
+    float: right;
+    color: blue;
+}

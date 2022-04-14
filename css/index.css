@@ -1,0 +1,434 @@
+﻿.container {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.clear{
+    float: none;
+}
+
+#banner{
+    background: url('../img/banner/index-banner.jpg') no-repeat center center/cover;
+    height: 600px;
+    display: flex;
+    color: white;
+}
+
+#banner section{
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#banner-logo{
+    height: 43px;
+    width: 190px;
+    margin: auto;
+}
+
+#banner h1{
+    text-align: center;
+    font-size: 2em;
+}
+
+#banner p{
+    font-size: 1.2em;
+}
+
+#banner input{
+    display: block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-family: 'Fredoka', sans-serif;
+    width: 60%;
+}
+
+#join-now{
+    margin: auto;
+    font-family: 'Fredoka', sans-serif;
+}
+
+#text_join{
+    font-size: 1.2em;
+    border: 2px solid #717ed7;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 40px auto 5px auto;
+}
+
+#text_join:hover {
+    background-color: #eeffff;
+}
+
+#btn_join {
+    background-color: #d92d2d;
+    color: white;
+    border-style: none;
+    border: 2px solid #717ed7;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1.1em;
+    margin: 10px auto 0px auto;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#btn_join:hover {
+    opacity: 0.9;
+}
+
+#index-services{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 200px;
+}
+
+#index-services section{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 475px;
+}
+
+#index-services div img{
+    height: 100px;
+    width: 100px;
+}
+
+#index-services h2, #index-services p{
+    margin: 0;
+}
+
+#sale-banner{
+    height: 600px;
+    width: 100vw;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+#sale-banner h2{
+    margin: 0;
+}
+
+#game-pc{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background: url('../img/product/gaming-pc.jpg') no-repeat center center/cover;
+    box-sizing:border-box;
+}
+
+#game-console{
+    float: right;
+    width: 50%;
+    height: 100%;
+    background: url('../img/product/gaming-console.jpg') no-repeat center center/cover;
+    box-sizing: border-box;
+}
+
+.sale-banner-left, .sale-banner-right{
+    height: 70%;
+    width: 70%;
+    margin: 60px auto;
+}
+
+.sale-banner-left{
+    border-top: 3px solid #a1a1a1;
+    border-right: 3px solid #a1a1a1;
+    position: relative;
+}
+
+.sale-banner-right{
+    border-left: 3px solid #a1a1a1;
+    border-bottom: 3px solid #a1a1a1;
+    position: relative;
+}
+
+.sale-banner-left > div, .sale-banner-right > div{
+    width: 300px;
+    position: absolute;
+    color: white;
+    font-size: 1.1em;
+    background-color: #0000007d;
+    box-sizing: border-box;
+    padding: 30px;
+    text-align: center;
+}
+
+.sale-banner-left > div{
+    top:0px;
+    right:0px;
+}
+
+.sale-banner-right > div{
+    left: 0px;
+    bottom: 0px;
+}
+
+#sale-banner input{
+    width: 60%;
+    font-size: 1.1em;
+    margin: 10px 0;
+    padding: 5px;
+    background-color: var(--clr);
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Fredoka', sans-serif;
+    border: 2px solid #717ed7;
+}
+
+#game-pc:hover, #game-console:hover{
+    border: 6px solid white;
+    --clr: red;
+}
+
+#featured-products h1, #popular-products h1, #popular-brands h1{
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#featured-listing{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    align-items:center;
+    justify-content: center;
+}
+
+.featured-item{
+    height:400px;
+    width:270px;
+    margin: 10px 25px;
+    border: 2px solid #717ed7;
+}
+
+.featured-item-1{
+    background: url('../img/product/gaming-pc2.jpeg');
+}
+
+.featured-item-2{
+    background: url('../img/product/gaming-console1.jpeg');
+}
+
+.featured-item-3{
+    background: url('../img/product/laptop.jpg');
+}
+
+.featured-item-4{
+    background: url('../img/product/gaming-accessory.jpeg');
+}
+
+.hover-box{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: #0000007a;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.hover-box-head{
+    margin: 0;
+    height: 10%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.hover-box-head p{
+    margin: 0;
+    color: white;
+}
+
+.hover-box-top{
+    margin: 0;
+    height: 83%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.hover-box-bottom{
+    margin: 0;
+    height: 7%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.featured-item:hover > .hover-box, .popular-item:hover > .hover-box{
+    display: block;
+}
+
+.hover-box h2{
+    margin: 0;
+    text-align: center;
+    color: white;
+    padding: 70px 50px 15px 50px;
+}
+
+.hover-box > div{
+    text-align: center;
+}
+
+.hover-box a{
+    color: #00ff2b;
+    text-decoration: none;
+}
+
+.hover-box-bottom input{
+    height: 100%;
+    width: 65%;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: #000000e0;
+    color: white;
+    font-size: 1.1em;
+    border-style: none;
+    font-family: 'Fredoka', sans-serif;
+    cursor: pointer;
+}
+
+.hover-box-bottom input:hover{
+    background-color: #f15151;
+}
+
+#popular-products{
+    margin-top: 50px;
+}
+
+#popular-listing{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+}
+
+.popular-item{
+    width: 250px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 20px;
+    border: 2px solid #717ed7;
+}
+
+.popular-item-1{
+    background-image: url('../img/popular-products/popular-product1.jpg');
+}
+
+.popular-item-2{
+    background-image: url('../img/popular-products/popular-product2.jpg');
+}
+
+.popular-item-3{
+    background-image: url('../img/popular-products/popular-product3.jpg');
+}
+
+.popular-item-4{
+    background-image: url('../img/popular-products/popular-product4.jpg');
+}
+
+.popular-item-5{
+    background-image: url('../img/popular-products/popular-product5.jpg');
+}
+
+.popular-item-6{
+    background-image: url('../img/popular-products/popular-product6.jpg');
+}
+
+.popular-item-7{
+    background-image: url('../img/popular-products/popular-product7.jpg');
+}
+
+.popular-item-8{
+    background-image: url('../img/popular-products/popular-product8.jpg');
+}
+
+.popular-item-9{
+    background-image: url('../img/popular-products/popular-product9.jpg');
+}
+
+.popular-item-10{
+    background-image: url('../img/popular-products/popular-product10.jpg');
+}
+
+.popular-item-11{
+    background-image: url('../img/popular-products/popular-product11.jpg');
+}
+
+.popular-item-12{
+    background-image: url('../img/popular-products/popular-product12.jpg');
+}
+
+#clients{
+    background-color: #3c3c60;
+    margin: 50px 0;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+#clients h2{
+    margin: 0;
+    margin-top: 30px;
+}
+
+#clients h3{
+    margin: 0;
+}
+
+#client-box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 70px;
+}
+
+.client-item{
+    height: 330px;
+    width: 250px;
+}
+
+.client-img{
+    height: 250px;
+    width: 250px;
+}
+
+.client-img img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.client-img img:hover{
+    border: 3px solid #686887;
+}
+
+#popular-brands section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+.brand-logo{
+    height: 200px;
+    width: 300px;
+    box-sizing: border-box;
+}

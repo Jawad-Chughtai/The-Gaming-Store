@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="main.master.cs" Inherits="The_Gaming_Store.main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>TGS | The Gaming Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Source+Sans+Pro&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+        <div>
+
+            <header>
+                <div class="logo"><a href="index.aspx"></a></div>
+
+                <nav id="navbar">
+                    <ul>
+                        <li><a href="index.aspx">Home</a></li>
+                        <li><a href="product-list.aspx">Products</a>
+                            <ul class="inner-ul" id="li_products" runat="server">
+                            </ul>
+                        </li>
+                        <li><a href="product-list.aspx">Brands</a>
+                            <ul class="inner-ul" id="li_brands" runat="server">
+                            </ul>
+                        </li>
+                        <li><a href="contact.aspx">Contact Us</a></li>
+                        <li id="li_login" runat="server"><a href="login.aspx">Login</a></li>
+                        <li id="li_user" runat="server"><a href="user-profile.aspx"><%= Session["customer_name"].ToString() %></a></li>
+                        <li id="li_cart" runat="server"><a href="cart.aspx">Cart</a></li>
+                    </ul>
+                </nav>
+                        
+                <div id="search-bar" class="header-item">
+                    <input type="text" name="search" id="search-box" placeholder="Search products.." />
+                    <input type="submit" id="btn-search" value="Go!" />
+                </div>
+
+            </header>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <footer>
+
+                <div id="footer-links">
+                    <ul>
+                        <li><a href="index.aspx">Home</a></li>
+                        <li><a href="product-list.aspx">Products</a></li>
+                        <li><a href="product-list.aspx">Brands</a></li>
+                        <li><a href="contact.aspx">Contact Us</a></li>
+                        <li><a href="login.aspx">Login</a></li>
+                        <li><a href="admin/admin-dashboard.aspx">Admin</a></li>
+                    </ul>
+                    <%--<ul style="float: right">
+                        <li><img src="img/brands/facebook-logo.png" /></li>
+                        <li><img src="img/brands/twitter-logo.png" /></li>
+                        <li><img src="img/brands/whatsapp-logo.png" /></li>
+                        <li><img src="img/brands/instagram-logo.png" /></li>
+                    </ul>--%>
+                </div>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>

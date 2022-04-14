@@ -1,0 +1,124 @@
+﻿.form-container{
+    height: auto;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+.form-container > h2{
+    text-align: center;
+}
+
+.form{
+    width: 50%;
+    margin: auto;
+}
+
+.form-group{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.form-group-label{
+    width: 27%;
+    font-size: 1.1em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 5px;
+    color: #3c3c60;
+}
+
+.form-group-control{
+    width: 70%;
+}
+
+.form-group-control input, .form-group-control textarea, .drop_down{
+    width: 100%;
+    font-size: 1.2em;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+textarea{
+    height:100px;
+    overflow: auto;
+    resize: none;
+}
+
+.form-group-control button{
+    float: right;
+    width: 45%;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #d92d2d;
+    color: white;
+    border-style: none;
+    border: 2px solid #717ed7;
+    border-radius: 5px;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+    font-size: 1.1em;
+}
+
+.btn-field{
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #d92d2d;
+    color: white;
+    border-style: none;
+    border: 2px solid #717ed7;
+    border-radius: 5px;
+    font-family: 'Fredoka', sans-serif;
+    box-sizing: border-box;
+}
+
+.form-group-control button:hover{
+    background-color: tomato;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+.gridview{
+    min-width: 40%;
+    max-width: 90%;
+    margin: auto;
+    border: 2px solid gray;
+}
+
+.gridview_header{
+    font-size: 1.1em;
+    font-weight: bold;
+    background-color: #3c3c60;
+    color: white;
+    border: none 0px transparent;
+}
+
+.gridview_row{
+    border: none 0px transparent;
+    border-bottom: 1px solid lightgray;
+    font-weight: bold;
+}
+
+.gridview td, .gridview th{
+    padding: 10px 20px;
+}
+
+.gridview_row:hover{
+    background-color: #9d9dbf;
+    color: white;
+}

@@ -1,0 +1,210 @@
+﻿body {
+}
+
+#product-banner{
+    width: 100%;
+    height: 250px;
+    background: url('../img/banner/product-banner.jpg') no-repeat center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
+#product-banner h1{
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+    margin: 30px;
+}
+
+#container{
+    margin-bottom: 50px;
+}
+
+#container > h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+    border-bottom: 1px solid lightgray;
+}
+
+#product-section{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 70vw;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    height: auto;
+    width: 15%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-right: 1px solid lightgray;
+}
+
+#product-list{
+    height: auto;
+    width: 85%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar-content{
+    margin: auto;
+}
+
+.sidebar-content h3{
+    margin-bottom: 0;
+}
+
+.sidebar-content ul{
+    list-style-type: none;
+    border-top: 1px solid gray;
+    padding: 20px 0px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.sidebar-content ul li{
+    border-bottom: 1px solid lightgray;
+    padding: 3px 0;
+}
+
+.sidebar-content ul li a{
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar-content ul li a:hover{
+    color: tomato;
+}
+
+#product-list h3{
+    border-bottom: 1px solid gray;
+}
+
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.product-item{
+    height: 350px;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.product-img{
+    height: 250px;
+    width: 200px;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.product-img img{
+    height: 100%;
+    width: 100%;
+}
+
+.product-img:hover{
+    border: 5px solid wheat;
+}
+
+.product-details{
+    margin: auto;
+    padding: 20px 0;
+}
+
+.product-details p{
+    margin: auto;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+}
+
+.product-details a{
+    text-decoration: none;
+}
+
+#single-product{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+#single-product-img{
+    height: 550px;
+    width: 65%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#single-product-img img{
+    height: 100%;
+    width: 100%;
+}
+
+#single-product-img:hover{
+    border: 5px solid wheat;
+}
+
+#single-product-details{
+    height: 550px;
+    width: 30%;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#single-product-details h2{
+    margin-top: 0;
+}
+
+#single-product-details p{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+#single-product-details ul{
+    margin-top: 0;
+}
+
+#single-product-details ul li{
+    list-style-type: none;
+    padding-left: 40px;
+}
+
+.btn{
+    border: none;
+    font-size: 1em;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bold;
+    padding: 6px 20px;
+    background-color: #3c3c60;
+    color: white;
+    border: 2px solid #5765c9;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: tomato;
+    border: 3px solid wheat;
+}

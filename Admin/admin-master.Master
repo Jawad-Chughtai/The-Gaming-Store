@@ -1,0 +1,98 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin-master.master.cs" Inherits="The_Gaming_Store.Admin.admin_master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head runat="server">
+    <title>TGS |  Admin Panel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Source+Sans+Pro&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <link href="css/admin-main.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div>
+                <header>
+
+                    <div class="logo"><a href="../index.aspx"></a></div>
+
+                    <div id="search-bar" class="header-item">
+                        <input type="text" name="search" id="search-box" placeholder="Search..." />
+                        <input type="submit" id="btn-search" value="Go!" />
+                    </div>
+
+                    <nav id="navbar">
+                        <ul>
+                            <li><a href="#" id="user_profile" runat="server"></a></li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
+            <div class="heading">
+                <h1>Admin Panel</h1>
+            </div>
+
+
+            <div id="inner-container">
+
+                <aside id="sidebar">
+                    <div class="sidebar-content">
+                        <h3><a href="admin-dashboard.aspx">Dashboard</a></h3>
+                    </div>
+                    <div class="sidebar-content">
+                        <h3><a href="order.aspx">Orders</a></h3>
+                    </div>
+                    <div class="sidebar-content">
+                        <h3><a href="message.aspx">Messages</a></h3>
+                    </div>
+                    <div class="sidebar-content">
+                        <h3>Users</h3>
+                        <ul>
+                            <li><a href="view-user.aspx">View Users</a></li>
+                            <li><a href="new-user.aspx">Add Users</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="sidebar-content">
+                        <h3><a href="customer.aspx">Customers</a></h3>
+                    </div>
+                    <div class="sidebar-content">
+                        <h3>Products</h3>
+                        <ul>
+                            <li><a href="view-product.aspx">View Products</a></li>
+                            <li><a href="new-product.aspx">Add Products</a></li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-content">
+                        <h3><a href="categories.aspx">Categories</a></h3>
+                    </div>
+                    <div class="sidebar-content">
+                        <h3><a href="sub-categories.aspx">Sub-Categories</a></h3>
+                    </div>
+                    <div class="sidebar-content">
+                        <h3><a href="vendor.aspx">Vendors</a></h3>
+                    </div>
+                    <div class="sidebar-content">
+                        <h3><a href="coupon.aspx">Coupons</a></h3>
+                    </div>
+                    <div class="sidebar-content">
+                        <h3><a href="admin-login.aspx">Logout</a></h3>
+                    </div>
+                </aside>
+                <span class="clear"></span>
+
+
+                <section id="main-content">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </section>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

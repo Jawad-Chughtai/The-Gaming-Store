@@ -1,0 +1,84 @@
+﻿#container{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.img{
+    height: 100px;
+    width: 150px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.img img{
+    height: 100px;
+    width: 150px;
+}
+
+.cart-container{
+    width: 40%;
+    margin: auto;
+}
+.cart-item {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid lightgray;
+}
+
+.cart-item input[type="text"], .cart-item input[type="number"]{
+    padding: 3px;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+label{
+    font-weight: bold;
+    display: inline-block;
+    width: 80px;
+    margin-right: 10px;
+}
+
+.id-value{
+    width: 50px;
+}
+
+.name{
+    width: 250px;
+}
+
+.unit_price{
+    width: 100px;
+}
+
+.btn{
+    padding: 3px 10px;
+    cursor: pointer;
+    margin: 0 0 0 7px;
+    background-color: #d92d2d;
+    color: white;
+    border-style: none;
+    border: 2px solid #717ed7;
+    border-radius: 5px;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+    font-size: 1.1em;
+    float: right;
+}
+
+.btn:hover{
+    background-color: #ff4747;
+}
+
+.grand-total{
+    width: 315px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
